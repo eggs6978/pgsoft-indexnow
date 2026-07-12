@@ -1,0 +1,12 @@
+{
+  "sites": [
+    {
+      "name": "pgsoft-game.net",
+      "enabled": true,
+      "host": "www.pgsoft-game.net",
+      "sitemap": "https://www.pgsoft-game.net/sitemap.xml",
+      "key_location": "https://www.pgsoft-game.net/b80d160a8383427f9955267e654eca74.txt",
+      "key_env": "INDEXNOW_KEY_PGSOFT_GAME"
+    }
+  ]
+}
