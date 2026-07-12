@@ -1,0 +1,64 @@
+name: Multi-site IndexNow
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_all:
+        description: "强制提交所有网站的全部 URL"
+        required: true
+        type: boolean
+        default: false
+
+  schedule:
+    - cron: "17 19 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: multi-site-indexnow
+  cancel-in-progress: false
+
+jobs:
+  submit-indexnow:
+    name: Submit changed URLs
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      INDEXNOW_KEY_PGSOFT_GAME: ${{ secrets.INDEXNOW_KEY_PGSOFT_GAME }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Run IndexNow submission
+        env:
+          FORCE_ALL: ${{ inputs.force_all || 'false' }}
+        run: |
+          python indexnow_submit.py
+
+      - name: Commit updated state
+        if: always()
+        run: |
+          if git diff --quiet -- data/indexnow_state.json; then
+            echo "状态文件没有变化。"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/indexnow_state.json
+          git commit -m "Update IndexNow state [skip ci]"
+
+          git pull --rebase origin main
+          git push origin HEAD:main
