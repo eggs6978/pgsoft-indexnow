@@ -1,0 +1,2 @@
+# pgsoft-indexnow
+pgsoft-indexnow
