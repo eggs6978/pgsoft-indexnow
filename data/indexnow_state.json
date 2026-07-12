@@ -1,4 +1,66 @@
 {
-  "version": 2,
-  "sites": {}
+  "sites": {
+    "pgsoft-game.net": {
+      "checkedAt": "2026-07-12T10:45:57.472430+00:00",
+      "host": "www.pgsoft-game.net",
+      "keyLocation": "https://www.pgsoft-game.net/b80d160a8383427f9955267e654eca74.txt",
+      "lastSuccessfulRun": "2026-07-12T10:45:57.472430+00:00",
+      "newCount": 20,
+      "removedCount": 0,
+      "responseStatuses": [
+        202
+      ],
+      "sitemap": "https://www.pgsoft-game.net/sitemap.xml",
+      "submittedCount": 20,
+      "submittedUrls": [
+        "https://www.pgsoft-game.net/",
+        "https://www.pgsoft-game.net/blog/categories",
+        "https://www.pgsoft-game.net/blog/categories/pg%E7%94%B5%E5%AD%90%E6%8A%80%E5%B7%A7",
+        "https://www.pgsoft-game.net/blog/categories/pg%E7%94%B5%E5%AD%90rtp%E6%95%B0%E6%8D%AE",
+        "https://www.pgsoft-game.net/blog/mahjong-ways-2-rtp",
+        "https://www.pgsoft-game.net/blog/mahjong-ways-2-tips",
+        "https://www.pgsoft-game.net/blog/mahjong-ways-rtp",
+        "https://www.pgsoft-game.net/blog/mahjong-ways-tips",
+        "https://www.pgsoft-game.net/cq9-demo-games",
+        "https://www.pgsoft-game.net/fc-demo-games",
+        "https://www.pgsoft-game.net/free-vpn",
+        "https://www.pgsoft-game.net/jdb-demo-games",
+        "https://www.pgsoft-game.net/pg-demo-classic-games",
+        "https://www.pgsoft-game.net/pg-demo-featured-games",
+        "https://www.pgsoft-game.net/pg-demo-hot-games",
+        "https://www.pgsoft-game.net/pg-demo-new-games",
+        "https://www.pgsoft-game.net/pg-slot-rtp",
+        "https://www.pgsoft-game.net/pg-slot-tips",
+        "https://www.pgsoft-game.net/play-real-online",
+        "https://www.pgsoft-game.net/pp-demo-games"
+      ],
+      "updatedCount": 0,
+      "urlCount": 20,
+      "urlDigest": "af2d1564dc591daeef5c979706fa17cf5df6007e3c3c17b619b3f726706ad894",
+      "urls": {
+        "https://www.pgsoft-game.net/": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/blog/categories": "2026-05-11T06:07:47Z",
+        "https://www.pgsoft-game.net/blog/categories/pg%E7%94%B5%E5%AD%90%E6%8A%80%E5%B7%A7": "2026-04-14T07:17:15-07:00",
+        "https://www.pgsoft-game.net/blog/categories/pg%E7%94%B5%E5%AD%90rtp%E6%95%B0%E6%8D%AE": "2026-05-10T23:07:47-07:00",
+        "https://www.pgsoft-game.net/blog/mahjong-ways-2-rtp": "2026-07-11T23:47:50-07:00",
+        "https://www.pgsoft-game.net/blog/mahjong-ways-2-tips": "2026-07-11T23:50:55-07:00",
+        "https://www.pgsoft-game.net/blog/mahjong-ways-rtp": "2026-07-11T23:47:33-07:00",
+        "https://www.pgsoft-game.net/blog/mahjong-ways-tips": "2026-07-11T23:47:15-07:00",
+        "https://www.pgsoft-game.net/cq9-demo-games": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/fc-demo-games": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/free-vpn": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/jdb-demo-games": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/pg-demo-classic-games": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/pg-demo-featured-games": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/pg-demo-hot-games": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/pg-demo-new-games": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/pg-slot-rtp": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/pg-slot-tips": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/play-real-online": "2026-07-12T01:01:07-07:00",
+        "https://www.pgsoft-game.net/pp-demo-games": "2026-07-12T01:01:07-07:00"
+      }
+    }
+  },
+  "updatedAt": "2026-07-12T10:45:57.472618+00:00",
+  "version": 2
 }
