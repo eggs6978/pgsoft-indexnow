@@ -1,39 +1,16 @@
 {
   "sites": {
     "pgsoft-game.net": {
-      "checkedAt": "2026-07-12T10:45:57.472430+00:00",
+      "checkedAt": "2026-07-12T22:10:33.079923+00:00",
       "host": "www.pgsoft-game.net",
       "keyLocation": "https://www.pgsoft-game.net/b80d160a8383427f9955267e654eca74.txt",
-      "lastSuccessfulRun": "2026-07-12T10:45:57.472430+00:00",
-      "newCount": 20,
+      "lastSuccessfulRun": "2026-07-12T22:10:33.079923+00:00",
+      "newCount": 0,
       "removedCount": 0,
-      "responseStatuses": [
-        202
-      ],
+      "responseStatuses": [],
       "sitemap": "https://www.pgsoft-game.net/sitemap.xml",
-      "submittedCount": 20,
-      "submittedUrls": [
-        "https://www.pgsoft-game.net/",
-        "https://www.pgsoft-game.net/blog/categories",
-        "https://www.pgsoft-game.net/blog/categories/pg%E7%94%B5%E5%AD%90%E6%8A%80%E5%B7%A7",
-        "https://www.pgsoft-game.net/blog/categories/pg%E7%94%B5%E5%AD%90rtp%E6%95%B0%E6%8D%AE",
-        "https://www.pgsoft-game.net/blog/mahjong-ways-2-rtp",
-        "https://www.pgsoft-game.net/blog/mahjong-ways-2-tips",
-        "https://www.pgsoft-game.net/blog/mahjong-ways-rtp",
-        "https://www.pgsoft-game.net/blog/mahjong-ways-tips",
-        "https://www.pgsoft-game.net/cq9-demo-games",
-        "https://www.pgsoft-game.net/fc-demo-games",
-        "https://www.pgsoft-game.net/free-vpn",
-        "https://www.pgsoft-game.net/jdb-demo-games",
-        "https://www.pgsoft-game.net/pg-demo-classic-games",
-        "https://www.pgsoft-game.net/pg-demo-featured-games",
-        "https://www.pgsoft-game.net/pg-demo-hot-games",
-        "https://www.pgsoft-game.net/pg-demo-new-games",
-        "https://www.pgsoft-game.net/pg-slot-rtp",
-        "https://www.pgsoft-game.net/pg-slot-tips",
-        "https://www.pgsoft-game.net/play-real-online",
-        "https://www.pgsoft-game.net/pp-demo-games"
-      ],
+      "submittedCount": 0,
+      "submittedUrls": [],
       "updatedCount": 0,
       "urlCount": 20,
       "urlDigest": "af2d1564dc591daeef5c979706fa17cf5df6007e3c3c17b619b3f726706ad894",
@@ -61,6 +38,6 @@
       }
     }
   },
-  "updatedAt": "2026-07-12T10:45:57.472618+00:00",
+  "updatedAt": "2026-07-12T22:10:33.080070+00:00",
   "version": 2
 }
